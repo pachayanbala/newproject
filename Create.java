@@ -37,7 +37,7 @@ public class Create {
 		remail.sendKeys("pasupathi@gamil.com");
 		
 		WebElement pass = create.findElement(By.id("password_step_input"));
-		pass.sendKeys("12345678");
+		pass.sendKeys("123456789");
 		
 		WebElement dob = create.findElement(By.id("day"));
 		dob.sendKeys("24");
